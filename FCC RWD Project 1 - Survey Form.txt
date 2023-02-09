@@ -1,0 +1,118 @@
+** start of undefined **
+
+<!DOCTYPE HTML>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+  <head>
+    <h1 id="title" class="head">freeCodeCamp Certification Project</h1>
+    <p id="description" class="head">Please input the following information to the best of your ability</p>
+  </head>
+  <p name="divider"></p>
+  <body>
+    <form id="survey-form">
+      <label for="name" id="name-label">Enter your name: <input required id="name" type="text" placeholder="John Doe"></label>
+      <label for="email" id="email-label">Enter your email: <input required id="email" type="email" placeholder="johndoe@email.com"></label>
+      <label for="number" id="number-label">Enter your age: <input id="number" type="number" min="18" max="120" placeholder="18"></label>
+      <label for="dropdown" id="dropdown-label">Sex: <select id="dropdown">
+        <option value="">(Select one)</option>
+        <option value="1">Male</option>
+        <option value="2">Female</option>
+        <option value="3">Other</option>
+        </select></label>
+    <label for="employmentlabel1">Employment Status:
+    <fieldset id="radioset">
+      <label for="fulltime" class="employmentstat" id="employmentlabel1"><input type="radio" id="fulltime" value="1" name="employmentstatus"> Employed full-time</label>
+      <label for="fulltime" class="employmentstat" id="employmentlabel1"> <input type="radio" id="parttime" value="2" name="employmentstatus"> Employed part-time</label>
+      <label for="fulltime" class="employmentstat" id="employmentlabel1"><input type="radio" id="unemployed" value="3" name="employmentstatus"> Unemployed</label>
+    </label>
+  </fieldset>
+      <label for="citstat" id="citstat-label">US Citizenship status: <fieldset id="citstat">
+        <p class="checkbox"><input type="checkbox" value="1"> Citizen by birth</p>
+        <p class="checkbox"><input type="checkbox" value="2">Citizen by naturalization</p>
+        <p class="checkbox"><input type="checkbox" value="3">Citizen by marriage</p>
+        <p class="checkbox"><input type="checkbox" value="4">Citizen by family</p>
+        <p class="checkbox"><input type="checkbox" value="5">Citizen by military</p>
+       </fieldset></label>
+      <textarea placeholder="Additional comments..."></textarea>
+        <p name="divider"></p>
+      <button id="submit" type="submit" value="submit" >Submit</button>
+    </form>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+.head, html {
+  background-color: rgb(255, 253, 230);
+  color: rgb(70,150,255);
+}
+
+body {
+  color: rgb(90,90,90);
+  font-size: 25;
+}
+
+h1 {
+  font-size: 60;
+  margin-bottom: 5;
+}
+
+p[id="description"] {
+  font-size: 20;
+  margin-top: 5;
+  margin-bottom: 0;
+}
+
+.head {
+  text-align: center;
+  font-family: Trebuchet MS;
+}
+
+.checkbox {
+  display: block;
+  font-size: 17;
+}
+
+.employmentstat {
+  display: block;
+  font-size: 17;
+  padding: 0;
+}
+
+fieldset[id="citstat"] {
+  width: 190px;
+  height: 190px;
+}
+
+fieldset[id="radioset"] {
+  width: 190px;
+  padding-top: 10;
+  padding-bottom: 10; 
+}
+
+label {
+  display: block;
+  padding-bottom: 10
+}
+
+label:first-of-type {
+  margin-top: 0;
+}
+
+
+p[name="divider"]{
+  border-bottom: 5px rgb(70,150,255) solid;
+  margin-top: 20;
+  margin-bottom: 20;
+}
+
+button {
+  margin-left: 270;
+  margin-right: 270;
+}
+
+** end of undefined **
+

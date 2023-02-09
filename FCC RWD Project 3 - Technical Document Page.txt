@@ -1,0 +1,192 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css"> 
+<body id="body">
+  <nav id="navbar">
+    <header id="navbar-header">How to Draw:</header>
+    <ul id="nav-list">
+     <li class="nav-list-item"><a class="nav-link" href="#Number_One">Number One</a></li>
+      <li class="nav-list-item"><a class="nav-link" href="#Number_Two">Number Two</a></li>
+      <li class="nav-list-item"><a class="nav-link" href="#Number_Three">Number Three</a></li>
+      <li class="nav-list-item"><a class="nav-link" href="#Number_Four">Number Four</a></li>
+      <li class="nav-list-item"><a class="nav-link" href="#Number_Five">Number Five</a></li>
+      <li class="nav-list-item"><a class="nav-link" href="#Number_Six">Number Six</a></li>
+      <li class="nav-list-item"><a class="nav-link" href="#Number_Seven">Number Seven</a></li>
+      <li class="nav-list-item"><a class="nav-link" href="#Number_Eight">Number Eight</a></li>
+      <li class="nav-list-item"><a class="nav-link" href="#Number_Nine">Number Nine</a></li>
+      <li class="nav-list-item"><a class="nav-link" href="#Number_Zero">Number Zero</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section id="Number_One" class="main-section">
+      <header class="section-header">Number One</header>
+      <p class="section-p">In this section you will learn how to draw the number one</p>
+      <code><iframe class="video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/XNKDfTBg3Uk?rel=0&controls=0&showinfo=0"></iframe></code>
+      <li class="section-li">It's easy... ok!</li>
+    </section>
+    <section id="Number_Two" class="main-section">
+      <header class="section-header">Number Two</header>
+      <p class="section-p">In this section you will learn how to draw the number two</p>
+      <code><iframe class="video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/CTbFsaNasoQ?rel=0&controls=0&showinfo=0"></iframe></code>
+      <li class="section-li">Easy enough?</li>
+    </section>
+    <section id="Number_Three" class="main-section">
+      <header class="section-header">Number Three</header>
+      <p class="section-p">In this section you will learn how to draw the number three</p>
+      <code><iframe class="video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/E3yWz0yvceA?rel=0&controls=0&showinfo=0"></iframe></code>
+      <li class="section-li">So far so good</li>
+    </section>
+    <section id="Number_Four" class="main-section">
+      <header class="section-header">Number Four</header>
+      <p class="section-p">In this section you will learn how to draw the number four</p>
+      <code><iframe class="video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/sfNrmlWUI_k?rel=0&controls=0&showinfo=0"></iframe></code>
+      <li class="section-li">Keep it up!</li>
+    </section>
+    <section id="Number_Five" class="main-section">
+      <header class="section-header">Number Five</header>
+      <p class="section-p">In this section you will learn how to draw the number five</p>
+      <code><iframe class="video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/yNawPGg93JU?rel=0&controls=0&showinfo=0"></iframe></code>
+      <li class="section-li">Halfway there</li>
+    </section>
+    <section id="Number_Six" class="main-section">
+      <header class="section-header">Number Six</header>
+      <p class="section-p">In this section you will learn how to draw the number six</p>
+      <code><iframe class="video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/JOD3KQVZIWs?rel=0&controls=0&showinfo=0"></iframe></code>
+      <li class="section-li">Getting the hang of it yet?</li>
+    </section>
+    <section id="Number_Seven" class="main-section">
+      <header class="section-header">Number Seven</header>
+      <p class="section-p">In this section you will learn how to draw the number seven</p>
+      <code><iframe class="video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/kCZct2yEeCU?rel=0&controls=0&showinfo=0"></iframe></code>
+      <li class="section-li">Nearing the end...</li>
+    </section>
+    <section id="Number_Eight" class="main-section">
+      <header class="section-header">Number Eight</header>
+      <p class="section-p">In this section you will learn how to draw the number eight</p>
+      <code><iframe class="video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/0oDsibtPMHw?rel=0&controls=0&showinfo=0"></iframe></code>
+      <li class="section-li">Almost there...</li>
+    </section>
+    <section id="Number_Nine" class="main-section">
+      <header class="section-header">Number Nine</header>
+      <p class="section-p">In this section you will learn how to draw the number nine</p>
+      <code><iframe class="video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/PsRGNwhMPDg?rel=0&controls=0&showinfo=0"></iframe></code>
+      <li class="section-li">Just one more...</li>
+    </section>
+    <section id="Number_Zero" class="main-section">
+      <header class="section-header">Number Zero</header>
+      <p class="section-p">In this section you will learn how to draw the number zero</p>
+      <code><iframe class="video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/eCJWsbNk3mo?rel=0&controls=0&showinfo=0"></iframe></code>
+      <li class="section-li">You did it!</li>
+      <foot id="footer">All videos shown belong to zooshii on YouTube. If you enjoyed, be sure to like and subscribe!
+     </foot>
+    </section>
+  </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media only screen and (max-width: 815px){
+  #main-doc{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+html{
+  color: #878787;
+}
+
+#navbar{
+  position: fixed;
+  width: 300px;
+  border: solid;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar-header{
+  font-size: 70;
+  color: #333333;
+  padding-left: 15px;
+}
+
+#nav-list{
+  list-style: none;
+  position: relative;
+  right: 20;
+}
+
+.nav-list-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: solid;
+  padding-top: 10;
+  padding-bottom: 10;
+  font-size: 30;
+  width: 300;
+}
+
+.nav-link{
+  color: #878787;
+  text-decoration: none;
+}
+
+.nav-list-item:last-of-type{
+  padding-bottom: 100vh;
+  border-bottom: none;
+}
+
+#main-doc{
+  position: absolute;
+  left: 320px;
+  list-style: none;
+  margin: 30;
+  margin-left: 200px;
+}
+
+.main-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-header{
+  font-size: 60;
+  color: #333333;
+}
+
+.section-p{
+  font-size: 30;
+}
+
+.section-li{
+  font-size: 25;
+  margin-bottom: 150;
+}
+
+.video{
+  margin: 20;
+}
+
+#footer{
+  margin: 50;
+  margin-top: 0;
+  font-size: 22;
+  font-weight: bold;
+  color: #878787;
+}
+
+** end of undefined **
+

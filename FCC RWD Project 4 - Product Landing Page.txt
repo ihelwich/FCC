@@ -1,0 +1,370 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+      <link rel="stylesheet" href="styles.css"/>
+      <script src="https://kit.fontawesome.com/951523543c.js" crossorigin="anonymous"></script>
+  <header id="header"><img id="header-img" src="https://www.pngplay.com/wp-content/uploads/6/Anchor-Tattoos-White-Icon-Vector-PNG.png">
+    <div id="header-text">
+      <div id="title">Ted's Cram Trade</div>
+      <nav id="nav-bar">
+       <ul>
+        <a class="nav-link" href="#location1">What is Cram?
+        </a>
+        <div class="nav-link-dividers"> - </div>
+        <a class="nav-link" href="#location2">Flavors
+        </a>
+        <div class="nav-link-dividers"> - </div>
+        <a class="nav-link" href="#location3">Special Offer
+        </a>
+        <div class="nav-link-dividers"> - </div>
+        <a class="nav-link" href="#location4">Expert Opinion
+        </a>
+      </ul>
+    </nav>
+   </div>
+  </header>
+  <div class="container"></div>
+  <body id="body">
+    <section id="form-section">
+     <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <p id="email-label">You will buy my wares!</p>
+        <input id="email" name="email" type="email" required  placeholder="buyer.of.wares@gmail.com"/>
+        <input id="submit" type="submit" value="Buy my wares!" />
+      </form>
+    </section>
+    <section id="faq">
+      <i id="bucket" class="fa-solid fa-bucket fa-5x"></i>
+      <i id="berry" class="fa-brands fa-raspberry-pi fa-5x"></i>
+      <i id="gift" class="fa-solid fa-gift fa-5x"></i>
+      <h1 id="h1" class="faqs">What is Cram?<div id="location1" class="placeholder link-location"></div></h1>
+      <p class="faq-answers">Cram is a little mushy substance you put in between your gums it's not dip though don't think it's dip. Cram is sold by the bucket.</p>
+      <h2 id="h2" class="faqs">Flavors of Cram<div id="location2" class="placeholder link-location"></div></h2>
+      <p class="faq-answers">Ted is selling multiple crams of very different flavors. These flavors include, and are limited to, rasberry, berry, and very berry cram.</p></div>
+      <h3 id="h3" class="faqs">Not Interested in Substances?<div id="location3" class="placeholder link-location"></div></h3>
+      <p id="faq-answer-3" class="faq-answers">We are launching a new product for those interested in going into battle. Details listed below!</p></div>
+    </section>
+    <div id="location4" class="placeholder link-location"></div>
+    <iframe class="link-location" id="video" width="420" height="315" src="https://www.youtube-nocookie.com/embed/Ll82POMkb8g?rel=0&controls=0&showinfo=0">
+    </iframe>
+    <section id="flavor-listings">
+      <div class="product " id="rasberry-flavor">
+        <div class="product-name">Rasberry</div>
+        <h1-2 class="price">20 Gold Coins</h1-2>
+        <div class="h1-2-placeholder"></div>
+        <p class="product-desc">A deep colored cram which has a tender texture, a sweet delicate taste and a pleasant aroma</p>
+        <button class="btn">This one!</button>
+      </div>
+      <div class="product" id="berry-flavor">
+        <div class="product-name">Berry</div>
+        <h2-2 class="price">20 Gold Coins</h1-2>
+        <div class="h2-2-placeholder"></div>
+        <p class="product-desc">Subtle, sweet, floral, woody, drying, and musky with a touch of soft acidity</p>
+        <button class="btn">This one!</button>
+      </div>
+      <div class="product" id="Very-Berry-Flavor">
+        <div class="product-name">Very Berry</div>
+        <h3-2 class="price">20 Gold Coins</h1-2>
+        <div class="h3-2-placeholder"></div>
+        <p class="product-desc">Just like berry but... VERY!</p>
+        <button class="btn">This one!</button>
+      </div>
+      <div class="product" id="cram-sword">
+        <div class="product-name">Cram Sword</div>
+        <h4-2 class="price">50 Gold Coins</h1-2>
+        <div class="h4-2-placeholder"></div>
+        <p class="product-desc">Laid in the sun for a fortnite and harder than steel. Cram Sword!</p>
+        <button class="btn">YES PLEASE!!!</button>
+      </div>
+    </section>
+    <footer id="footer">
+      <p id="disabled-links">Privacy Terms Contact</p>
+      <span id="copyright">Copyright 2016, Original Trombones</span>
+    </footer>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html{
+  height: 1700;
+}
+
+#header-img{
+  width: 82px;
+  height: 63px;
+  margin-left: 15;
+  margin-right: 10;
+}
+
+#header-text{
+  display: flex;
+}
+
+ #header{
+  width: 100%;
+  height: 100px;
+  background-color: #6A5ACD;
+  display: flex;  
+  align-items: center;
+  position: fixed;
+  top: 0;
+  margin-left: -10;
+  font-family: cursive;
+ }
+
+#body{
+  width: 100%;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#video{
+  margin: auto;
+}
+
+#title{
+  padding-top: 5;
+  font-size: 35;
+  color: white;
+}
+
+ .container{
+   margin-top: 110px;
+ }
+
+ ul{
+   display: flex;
+   font-size: 20;
+   position: absolute;
+   right: 80;
+   top: 15;
+ }
+
+
+.nav-link, .nav-link-dividers{
+  display: block;
+  text-align: right;
+}
+
+ .nav-link{
+   color: white;
+   text-decoration: none;
+ }
+
+ .nav-link-dividers{
+   padding-left: 15px;
+   padding-right: 15px;
+   color: white;
+ }
+
+ #form{
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   align-items: center;
+ }
+
+#email-label{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+
+#email{
+  width: 280px;
+  height: 30px;
+  padding-left: 5px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  font-family: ariel;
+  font-size: 20px;
+}
+
+#submit{
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+#bucket{
+  position: absolute;
+  left: 255px;
+}
+
+#berry{
+  position: absolute;
+  left: 260px;
+  top: 450px;
+}
+
+#gift{
+  position: absolute;
+  left: 250px;
+  top: 540px;
+}
+
+#faq{
+  text-align: left;
+  margin-left: 350;
+  margin-right: 350;
+}
+
+.faqs{
+  font-size: 30;
+  margin-bottom: 0;
+}
+
+.faq-answers{
+  font-size: 20;
+  margin: 0;
+}
+
+#location1{
+  position: absolute;
+  top: 220;
+}
+
+#location2{
+  position: absolute;
+  top: 325;
+}
+
+#location3{
+  position: absolute;
+  top: 430;
+}
+
+#location4{
+  position: absolute;
+  top: 530;
+}
+
+#bucket, #berry, #gift{
+  color: #6A5ACD;
+  z-index: -1;
+}
+
+#video{
+  margin-top: 50px;
+  margin-bottom: 50px;  
+}
+
+ .product{
+   border: solid;
+   border-color: #5A5A5A;
+   width: 300px;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+ }
+
+ .btn{
+   border-color: #6A5ACD;
+   background-color: #6A5ACD;
+   color: white;
+   width: 150px;
+   height: 50px;
+   font-size: 18;
+   font-family: cursive;
+ }
+
+ .product-desc{
+   font-family: system-ui;
+   font-size: 18;
+ }
+
+ .product-name, .price{
+   font-family: Georgia, serif;
+   background-color: #ddd;
+   color: black;
+   display: box;
+   box-sizing: border-box;
+   z-index: 1;
+ }
+
+ .h1-2-placeholder{
+   background-color: #ddd;
+   width: 300px;
+   height: 60px;
+   padding-left: 10px;
+   padding-right: 10px;
+   position: absolute;
+   top: 1044px;
+   left: 600px;
+   z-index: -1;
+ }
+
+ .h2-2-placeholder{
+   background-color: #ddd;
+   width: 300px;
+   height: 60px;
+   padding-left: 10px;
+   padding-right: 10px;
+   position: absolute;
+   top: 1270px;
+   left: 600px;
+   z-index: -1;
+ }
+
+ .h3-2-placeholder{
+   background-color: #ddd;
+   width: 300px;
+   height: 60px;
+   padding-left: 10px;
+   padding-right: 10px;
+   position: absolute;
+   top: 1499px;
+   left: 600px;
+   z-index: -1;
+ }
+
+ .h4-2-placeholder{
+   background-color: #ddd;
+   width: 300px;
+   height: 60px;
+   padding-left: 10px;
+   padding-right: 10px;
+   position: absolute;
+   top: 1679px;
+   left: 600px;
+   z-index: -1;
+ }
+
+ #cram-sword{
+   margin-bottom: 100px;
+ }
+
+ #footer{
+   background-color: #ddd;
+   text-align: right;
+   padding: 20;
+ }
+
+ #disabled-links{
+   font-family: Lato, sans-serif;
+   font-weight: bold;
+   font-size: 16;
+ }
+
+ #copyright{
+   font-size: 16;
+ }
+
+@media (max-width: 700px){
+  html{
+    position: relative;
+  }
+}
+
+** end of undefined **
+
