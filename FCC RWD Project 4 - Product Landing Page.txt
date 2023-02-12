@@ -97,8 +97,8 @@ html{
 #header-img{
   width: 82px;
   height: 63px;
-  margin-left: 15;
-  margin-right: 10;
+  margin-left: 15px;
+  margin-right: 10px;
 }
 
 #header-text{
@@ -131,8 +131,8 @@ html{
 }
 
 #title{
-  padding-top: 5;
-  font-size: 35;
+  padding-top: 5px;
+  font-size: 35px;
   color: white;
 }
 
@@ -142,10 +142,10 @@ html{
 
  ul{
    display: flex;
-   font-size: 20;
+   font-size: 20px;
    position: absolute;
-   right: 80;
-   top: 15;
+   right: 80px;
+   top: 15px;
  }
 
 
@@ -214,38 +214,38 @@ html{
 
 #faq{
   text-align: left;
-  margin-left: 350;
-  margin-right: 350;
+  margin-left: 350px;
+  margin-right: 350px;
 }
 
 .faqs{
-  font-size: 30;
-  margin-bottom: 0;
+  font-size: 30px;
+  margin-bottom: 0px;
 }
 
 .faq-answers{
-  font-size: 20;
-  margin: 0;
+  font-size: 20px;
+  margin: 0px;
 }
 
 #location1{
   position: absolute;
-  top: 220;
+  top: 220px;
 }
 
 #location2{
   position: absolute;
-  top: 325;
+  top: 325px;
 }
 
 #location3{
   position: absolute;
-  top: 430;
+  top: 430px;
 }
 
 #location4{
   position: absolute;
-  top: 530;
+  top: 530px;
 }
 
 #bucket, #berry, #gift{
@@ -274,13 +274,13 @@ html{
    color: white;
    width: 150px;
    height: 50px;
-   font-size: 18;
+   font-size: 18px;
    font-family: cursive;
  }
 
  .product-desc{
    font-family: system-ui;
-   font-size: 18;
+   font-size: 18px;
  }
 
  .product-name, .price{
@@ -347,17 +347,17 @@ html{
  #footer{
    background-color: #ddd;
    text-align: right;
-   padding: 20;
+   padding: 20px;
  }
 
  #disabled-links{
    font-family: Lato, sans-serif;
    font-weight: bold;
-   font-size: 16;
+   font-size: 16px;
  }
 
  #copyright{
-   font-size: 16;
+   font-size: 16px;
  }
 
 @media (max-width: 700px){
