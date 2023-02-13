@@ -1,0 +1,231 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/951523543c.js" crossorigin="anonymous"></script>
+  <head id="head">
+    <nav id="navbar">
+      <a id="welcome-section-link" class="nav-link" href="#welcome-section">Home</a>
+      <a id="project-section-link" class="nav-link" href="#project-section">Projects</a>
+      <a id="contact-section-link" class="nav-link" href="#contact-section">Contact</a>
+    </nav>
+  </head>
+  <body id="body">
+    <section id="welcome-section">
+      <h1 id="welcome-h">Hello world</h1>
+      <p id="welcome-p">Isaiah Helwich's RWD portfolio through freeCodeCamp <i id="fcc-logo" class="fa-brands fa-free-code-camp"></i></p>
+    </section>
+    <section id="projects">
+      <h2 id="project-h">Certification course projects:</h2>
+      <div id="project-grid">
+        <a href="https://codepen.io/ihelwich/full/BaPgYEb" target="_blank" class="project project-tile">
+          <img class="project-image" src="https://raw.githubusercontent.com/ihelwich/FCC/main/1.png" alt="project">
+          <p class="project-title">
+            Survey Form
+          </p>
+          </a>  
+        <a href="https://codepen.io/ihelwich/full/OJwevpK">
+          <img class="project-image" src="https://raw.githubusercontent.com/ihelwich/FCC/main/2.png" alt="project">
+          <p class="project-title">
+            Tribute Page
+          </p>
+          </a>
+        <a href="https://codepen.io/ihelwich/full/dyjBmWg" target="_blank" class="project project-tile">
+          <img class="project-image" src="https://raw.githubusercontent.com/ihelwich/FCC/main/3.png" alt="project">
+          <p class="project-title">
+            Technical Document Page
+          </p>
+          </a>
+        <a href="https://codepen.io/ihelwich/full/ZEjgZro">
+          <img class="project-image" src="https://raw.githubusercontent.com/ihelwich/FCC/main/4.png" alt="project">
+          <p class="project-title">
+            Product Landing Page
+          </p>
+          </a>
+      </div>
+    </section>
+    <section id="contact-section">
+      <h3 id="contact-h">To be continued...</h3>
+      <p id="contact-p">Stay tuned for more!</p>
+      <a id="profile-link" target="_blank"></a>
+    </section>
+    <section id="foot">
+      <h4 id="foot-h"><i class="fa-regular fa-copyright"></i> Created for freeCodeCamp <i id="fcc-logo" class="fa-brands fa-free-code-camp"></i></h4>
+    </section>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+:root{
+  --primary: #1b212c;
+  --secondary: #82c7a5;
+  --tertiary: #008080;
+  --quaternary: #f0f0f0;
+}
+
+*{
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+html{
+  background-color: var(--primary);
+}
+
+#navbar{
+  background-color: var(--secondary);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 10vh;
+  text-align: right;
+  z-index: 10;
+}
+
+.nav-link{
+  color: var(--quaternary);;
+  font-size: 25px;
+  position: relative;
+  top: 25px;
+  padding-right: 30px;
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+}
+
+#body{
+  margin-top: 10vh;
+}
+
+#welcome-section{
+  height: 90vh;
+  width: 100vw;
+  position: relative;
+  padding-bottom: 0;
+  border: 0;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-h{
+  font-family: Raleway, sans-serif;
+  color: var(--quaternary);;
+  font-size: 80;
+  margin: 0;
+}
+
+#welcome-p{
+  color: var(--secondary);
+  font-family: Poppins, sans-serif;
+  font-style: italic;
+  font-size: 20;
+}
+
+#projects{
+  height: 140vh;
+  width: 100vw;
+  position: relative;
+  left: 0;
+  margin-top: 0;
+  border: 0;
+  padding-top: 0;
+  background-color: var(--tertiary);
+  color: var(--quaternary);
+}
+
+#project-h{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 60;
+  text-align: center;
+  padding-top: 40;
+}
+
+#project-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.project-title{
+  background-color: var(--primary);
+  color: var(--quaternary);
+  text-decoration: underline;
+  text-decoration-color: var(--primary);
+  font-size: 25;
+  font-family: Poppins, sans-serif;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 10;
+  padding-bottom: 10;
+}
+
+#contact-section{
+  color: var(--quaternary);
+  border-bottom: solid;
+  border-color: var(--secondary);
+  height: 85vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-h{
+  font-family: Raleway, sans-serif;
+  font-size: 80;
+  color: var(--quaternary);
+  margin: 0;
+}
+
+#contact-p{
+  font-family: Raleway, sans-serif;
+  font-size: 30;
+  color: var(--quaternary);
+  font-style: italic;
+}
+
+#foot{
+  width: 100vw;
+  height: 15vh;
+  margin-top: 0;
+  border: 0;
+  padding-top: 0;
+  background-color: var(--primary);
+  color: var(--quaternary);
+}
+
+#foot-h{
+  position: relative;
+  bottom: -5vh;
+  font-size: 20;
+  color: var(--quaternary);
+  text-align: right;
+  padding-right: 100px;
+}
+
+@media (max-width: 28.75em){
+  html{
+    font-size: 55%;
+  }
+}
+
+** end of undefined **
+
